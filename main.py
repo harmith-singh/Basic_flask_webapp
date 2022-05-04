@@ -6,6 +6,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Congratulations, it's a web app!"
+    return "Congratulations, and Hello world!"
 
 app.run()
